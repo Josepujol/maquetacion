@@ -21,7 +21,6 @@ git clone https://github.com/fullstack-pe/maquetacion.git
 * git config --global -l 
 * git config --global user.name "Moises Yance"
 * git config --global user.email "francisco10myq@gmail.com"
-
 ```
 > **Nota:**
 > Es necesario contar con una consola de trabajo ( Bash, Vim, ConEmu )
