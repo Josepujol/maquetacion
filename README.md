@@ -40,6 +40,6 @@ git push origin mfyance
 
 ### <i class="icon-folder-open"></i> Pasos para Iniciar Maquetación de un Prototipo
 1. Agregar la carpeta clonada, al Editor de Código Fuentes de su preferencia { [Sublime](https://www.sublimetext.com/3), [NotePad++](https://notepad-plus-plus.org/) , [Atom](https://atom.io/)}
-2. Abrir los archivos index.html y styles.css.
+2. Abrir el archivo html y css correspondiente al Proyecto a Iniciar.
 3. Abrir [Imágen de ejemplo](https://drive.google.com/file/d/0Bxx13yDV_gjFX3JweUNReWdtbU0/view?usp=sharing)
-4. Iniciar la maquetación, aplicando las etiquetas básicas de Html y los selectores de estilo para los archivos .css
+4. Iniciar la maquetación, aplicando las etiquetas básicas de Html y los selectores de estilo para los archivos Css
