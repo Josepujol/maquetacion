@@ -22,6 +22,19 @@ git clone https://github.com/fullstack-pe/maquetacion.git
 * git config --global user.name "Moises Yance"
 * git config --global user.email "francisco10myq@gmail.com"
 ```
+5. Crear una Rama Personal para el Repositorio
+```
+git checkout -b "mfyance"
+```
+6. Agregar mis cambios realizados
+```
+git commit -am "Agregar mis cambios"
+```
+7. Subir mis cambios realizados
+```
+git push origin mfyance
+```
+
 > **Nota:**
 > Es necesario contar con una consola de trabajo ( Bash, Vim, ConEmu )
 
