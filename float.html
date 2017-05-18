@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+  	<meta name="organization" content="FullStack.pe">
+  	<meta name="author" content="mfyance">
+  	<meta name="description" content="Desarrollo Frontend Jr.">
+	<title>Float</title>
+	<link rel="icon" type="image/png" href="framework/img/favicon-16x16.png" sizes="16x16">
+	<style>
+		body{background-color: #f7f7f7}
+		.caja1{
+			padding: 10px;
+			margin: 10px;
+			border:2px solid #4bbdff;
+			background-color: #eff9ff;
+			display: inline-block;			
+		}
+		.caja2{
+			padding: 10px;
+			margin: 10px;
+			border:2px solid #4bbdff;
+			background-color: #eff9ff;
+			display: block;			
+		}
+		.caja3{
+			padding: 10px;
+			margin: 10px;
+			border:2px solid #4bbdff;
+			background-color: #eff9ff;
+			display: inline-block;			
+			float: left;
+			width: 100%;
+		}
+	</style>
+</head>
+<body>
+	<div>
+		<div class="caja1 cleaner">Mi Caja IB 1</div>
+		<div class="caja1 cleaner">Mi Caja IB 2</div>
+	</div>
+	<div>
+		<div class="caja2 cleaner">Mi Caja b 1</div>
+		<div class="caja2 cleaner">Mi Caja b 2</div>
+	</div>
+	<div>
+		<div class="caja3 cleaner">Float 1</div>
+		<div class="caja3 cleaner">Float 2</div>
+	</div>
+</body>
+</html>

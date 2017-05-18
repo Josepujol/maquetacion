@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+  	<meta name="organization" content="FullStack.pe">
+  	<meta name="author" content="mfyance">
+  	<meta name="description" content="Desarrollo Frontend Jr.">
+  	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Multimedia: Imágenes - Video</title>
+	<link rel="icon" type="image/png" href="framework/img/favicon-16x16.png" sizes="16x16">
+	<style>
+		img{
+			width: 300px;
+			height: 400px;
+		}
+
+		.video-container:not(.test) {
+			position:relative;
+			padding-bottom:56.25%;
+			padding-top:30px;
+			height:0;
+			overflow:hidden;
+		}
+		.video-container:not(.test) iframe, 
+		.video-container:not(.test) object, 
+		.video-container:not(.test) embed {
+			position:absolute;
+			top:0;
+			left:0;
+			width:100%;
+			height:100%;
+		}
+	</style>
+</head>
+<body>	
+	<h1>Embed Youtube</h1>
+	<div class="video-container ">
+		<iframe src="https://www.youtube.com/embed/JwBf_9M1S7k" frameborder="0"></iframe>
+	</div>
+</body>
+</html>

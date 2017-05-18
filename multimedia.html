@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+  	<meta name="organization" content="FullStack.pe">
+  	<meta name="author" content="mfyance">
+  	<meta name="description" content="Desarrollo Frontend Jr.">
+  	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Multimedia: Imágenes - Video</title>
+	<link rel="icon" type="image/png" href="framework/img/favicon-16x16.png" sizes="16x16">
+	<style>
+		img{
+			width: 300px;
+			height: 400px;
+		}
+
+		@media only screen and (max-width: 800px) {    
+	       	img{
+	       		width: 100%;
+	       		height: inherit;
+	       	}
+	       	video {
+				width: 100%    !important;
+				height: auto   !important;
+			}
+		}
+
+	</style>
+</head>
+<body>	
+	<p><b>To understand this example, you should open this page on a phone or a tablet.</b></p>
+	<img src="https://www.fullstack.pe/img/home/background-people-clean.jpg" alt="Fullstack" width="360" height="245">
+	<p>
+	Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
+	Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum.
+	Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum.
+	</p>
+	<div>
+		<video controls>
+		  <source src="framework/videos/loop.mp4" type="video/mp4">
+		  Tu navegador no implementa el elemento <code>video</code>.
+		</video>
+	</div>
+	<div class="video-container">
+		
+	</div>
+
+</body>
+</html>

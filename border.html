@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+  	<meta name="organization" content="FullStack.pe">
+  	<meta name="author" content="mfyance">
+  	<meta name="description" content="Desarrollo Frontend Jr.">
+	<title>Border</title>
+	<link rel="icon" type="image/png" href="framework/img/favicon-16x16.png" sizes="16x16">
+	<style>
+		body{background-color: #f7f7f7}
+		.caja{
+			padding: 10px;
+			margin: 10px;
+			border:2px solid #4bbdff;
+			background-color: #eff9ff;
+			display: inline-block;
+			float: left;
+			width: 100%;
+		}
+		.caja.dotted {border-style: dotted;}
+		.caja.dashed {border-style: dashed;}
+		.caja.solid {border-style: solid;}
+		.caja.double {border-style: double;}
+		.caja.groove {border-style: groove;}
+		.caja.ridge {border-style: ridge;}
+		.caja.inset {border-style: inset;}
+		.caja.outset {border-style: outset;}
+		.caja.none {border-style: none;}
+		.caja.hidden {border-style: hidden;}
+		.caja.mix {border-style: dotted dashed solid double;}
+
+		.caja.radius{border-radius:10px;}
+	</style>
+</head>
+<body>
+	<div>
+		<div class="caja dotted cleaner">dotted</div>
+		<div class="caja dashed cleaner">dashed</div>
+		<div class="caja solid cleaner">solid</div>
+		<div class="caja double cleaner">double</div>
+		<div class="caja groove cleaner">groove</div>
+		<div class="caja ridge cleaner">ridge</div>
+		<div class="caja inset cleaner">inset</div>
+		<div class="caja none cleaner">none</div>
+		<div class="caja hidden cleaner">hidden</div>
+		<div class="caja mix cleaner">mix</div>
+	</div>
+	<div>
+		<div class="caja radius">Border Radius</div>
+	</div>
+</body>
+</html>
