@@ -1,0 +1,58 @@
+
+
+
+
+
+		#fullstack{
+			color: green;
+			word-spacing:50px;
+			letter-spacing: 20px;
+		}
+		.clase{
+			color: olive;
+			border: 1px solid red;
+			text-shadow: 2px 2px #4470bf;
+		}
+
+
+/*  */
+
+
+
+		.contenedor-css{
+			margin: auto;
+			background: #5592de;
+			padding: 10px;
+			border: 10px solid #4470bf;
+			text-align: center;
+			max-width: 50%;
+		}
+
+
+		.texto-big{
+			font-family: calibri;
+			margin: 0;		/* reseta los valores por defecto */
+			color: white;
+			font-size: 60px;
+			margin-bottom: 0px;
+			text-shadow: 3px 3px 10px #777;  /* El tercer valor es el difuminado de la sombra*/
+		}
+
+		.texto-small{
+			color: white;
+			font-size: 13px;
+			text-transform: uppercase;
+		}
+
+
+
+
+
+		.blue1{color: #2196f3}
+		.blue2{color: rgb(33,150,243)}
+		.blue3{color: rgb(33,150,243,1)}
+		.blue4{color: rgb(33,150,243,0.5)}
+		.bg--red{
+			background-color: red
+		}
+		.bg--red p{color: white}
