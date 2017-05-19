@@ -1,0 +1,36 @@
+#fullstack{
+	color: yellow;
+		word-spacing: 2px;
+
+	}
+
+	.alvarez{color: red}
+		.blue1{color: #2196f3}
+		.blue2{color: rgb(33,150,243)}
+		.blue3{color: rgb(33,150,243,1)}
+		.blue4{color: rgb(33,150,243,0.5)}
+		.bg--red{
+			background-color: red
+		}
+		.bg--red p{color: white}
+
+
+.textogrande{
+	color: rgb(33,150,243);
+	font-size: 80px;
+	    margin: 0;
+
+
+}
+.textomini{color: rgb(33,150,243);
+	font-size: 20px;
+	    margin: 0;
+
+ }
+
+ .caja{ background: rgb(207, 223, 234);
+ 	   padding: 5px;
+ 	  border: 11px solid yellow;
+ 	  max-width: 150px;
+ 	  text-align: center;
+}
