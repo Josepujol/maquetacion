@@ -1,0 +1,13 @@
+#fullstack{
+			color: yellow;
+			word-spacing: 2px;
+		}
+
+		.blue1{color: #2196f3}
+		.blue2{color: rgb(33,150,243)}
+		.blue3{color: rgb(33,150,243,1)}
+		.blue4{color: rgb(33,150,243,0.5)}
+		.bg--red{
+			background-color: red
+		}
+		.bg--red p{color: white}
