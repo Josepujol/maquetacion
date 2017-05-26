@@ -50,3 +50,4 @@ git push origin mfyance
 2. Aquí esta el [1er Examen](https://drive.google.com/open?id=1jlQ49SjygMSB-hj08r8UY3ROIXFyccQELpeU9mY85lQ)
 3. Aquí está el [2do Examen](https://drive.google.com/open?id=1fiqEABILstLUeFkewt7syjO-yHmQ-PJVETG9kVSjUL4)
 4. INVITACIÓN [Meetup Frontend](https://www.meetup.com/es-ES/gdglima/events/240109942/)
+5. [Propiedad DIsplay](https://www.w3schools.com/cssref/playit.asp?filename=playcss_display&preval=inline)
