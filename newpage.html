@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="framework/css/reset.css">
+	<style>
+
+		header,
+		section,
+		footer {
+			width: 100%;
+			clear: both;
+		}
+
+		body {
+			background: red;
+		}
+
+		header {
+			background: yellow;
+		}
+
+		nav {
+			background: white;
+		    padding: 20px 0px;
+		    height: 110px;
+		    box-sizing: border-box;
+		    border: 1px solid #607D8B;
+		}
+
+		nav div {
+			width: 30%;
+			background: green;
+			float: left;
+		}
+
+		nav div img {
+			width: 150px;
+		    height: 70px;
+		    margin: 0 auto;
+		    display: block;
+		}
+
+		nav ul {
+			width: 70%;
+			background: yellow;
+			float: left;
+			padding: 17px 0px;
+		}
+
+		nav ul li {
+			background: #4CAF50;
+		    width: calc(100% / 4);
+		    text-align: center;
+		    display: block;
+		    float: left;
+		}
+
+		nav ul li a {
+			padding: 10px 0px;
+		    background: white;
+		    box-sizing: border-box;
+		    border-radius: 5px;
+		    text-decoration: none;
+		    display: block;
+		    margin: auto 20px;
+		}
+
+		section {
+			background: blue;
+			padding: 30px;
+    		box-sizing: border-box;
+		}
+
+		section h1 {
+			text-align: center;
+			font-size: 50px;
+			font-weight: bold;
+			line-height: 60px;
+			padding: 20px 0px;
+		}
+
+		section > img {
+			width: 100%;
+		    height: 180px;
+		    box-sizing: border-box;
+		}
+
+		section > p {
+			font-size: 15px;
+		    font-family: Arial;
+		    line-height: 20px;
+		    text-align: justify;
+		    padding: 10px 0px;
+		    margin: 15px 0px;
+		}
+
+		footer {
+			background: green;
+		}
+
+		.image li {
+			width: calc(100% / 3);
+			float: left;
+			display: block;
+			background: yellow;
+		}
+
+		.image li > img {
+			display: block;
+		    width: 95%;
+		    height: 200px;
+		    margin: 0 auto;
+		}
+
+		.image li > button {
+		    display: block;
+		    margin: 10px auto;
+		    padding: 5px 40px;
+		}
+
+		.clear {
+			clear: both;
+		}
+		
+	</style>
+</head>
+<body>
+	<header>
+		<nav>
+			<div>
+				<img src="#" alt="Imagen">
+			</div>
+			<ul>
+				<li><a href="#">Menu 1</a></li>
+				<li><a href="#">Menu 2</a></li>
+				<li><a href="#">Menu 3</a></li>
+				<li><a href="#">Menu 4</a></li>
+				<li class="clear"></li>
+			</ul>
+		</nav>
+	</header>
+	<section>
+		<h1>Heading</h1>
+
+		<img src="#" alt="Imagen 2">
+		<p>Al contrario del pensamiento popular, el texto de Lorem Ipsum no es simplemente texto aleatorio. Tiene sus raices en una pieza cl´sica de la literatura del Latin, que data del año 45 antes de Cristo, haciendo que este adquiera mas de 2000 años de antiguedad. Richard McClintock, un profesor de Latin de la Universidad de Hampden-Sydney en Virginia, encontró una de las palabras más oscuras de la lengua del latín, "consecteur", en un pasaje de Lorem Ipsum, y al seguir leyendo distintos textos del latín, descubrió la fuente indudable. Lorem Ipsum viene de las secciones 1.10.32 y 1.10.33 de "de Finnibus Bonorum et Malorum" (Los Extremos del Bien y El Mal) por Cicero, escrito en el año 45 antes de Cristo. Este libro es un tratado de teoría de éticas, muy popular durante el Renacimiento. La primera linea del Lorem Ipsum, "Lorem ipsum dolor sit amet..", viene de una linea en la sección 1.10.32.</p>
+
+		<div class="image">
+			<ul>
+				<li>
+					<img src="#" alt="CTA 1">
+					<button>CTA</button>
+				</li>
+				<li>
+					<img src="#" alt="CTA 1">
+					<button>CTA</button>
+				</li>
+				<li>
+					<img src="#" alt="CTA 1">
+					<button>CTA</button>
+				</li>
+			</ul>
+			<div class="clear"></div>
+		</div>
+	</section>
+	<footer>
+		<div>
+			<ul>
+				<li><h2>Item 1</h2></li>
+				<li><h2>Item 2</h2></li>
+				<li><h2>Item 3</h2></li>
+			</ul>
+		</div>
+		<div>
+			<ul>
+				<li>
+					<img src="" alt="">
+				</li>
+				<li>
+					<img src="" alt="">
+				</li>
+				<li>
+					<img src="" alt="">
+				</li>
+				<li>
+					<img src="" alt="">
+				</li>
+			</ul>
+		</div>
+	</footer>
+
+<style>
+	.caja {
+		display: table;
+	}
+
+	.cajita {
+		display: table-cell;
+		height: 100px;
+		width: 100px;
+		background: #CDDC39;
+		vertical-align: middle;
+		text-align: center;
+	}
+</style>
+
+<div class="caja">
+	<div class="cajita">1</div>
+	<div class="cajita">2</div>
+</div>
+
+<br>
+<br>
+
+<table>
+	<tr>
+		<td>1</td>
+		<td>2</td>
+	</tr>
+</table>
+
+<style>
+	.table {
+		display: table;
+	}
+	.table div {
+		display: table-cell;
+	}
+</style>
+
+<div class="table">
+	<div>1</div>
+	<div>2</div>
+</div>
+
+</body>
+</html>
