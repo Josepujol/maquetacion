@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="http://meyerweb.com/eric/tools/css/reset/reset.css"> <!-- resetea totalmente los estilos CSS (tambien se puede hacer con normalizer) -->
+
+
+	<!-- -->
+	<style>
+
+/*  */
+
+		.div-header {
+			background: yellow;
+		    width: 100%;
+		    height: 100px;
+		    border: 3px solid;
+		    float: left;
+		    box-sizing: border-box; /* permitio alinear cada caja */
+
+		    border-bottom: 0;	/* arregla el problema de la fusion de lineas */
+		}
+
+		.div-aside {
+			background: orange;
+		    width: 30%;
+		    height: 100px;    
+			border: 3px solid;
+		    float: left;
+		    box-sizing: border-box;
+		}
+
+		.div-content {
+			background: green;
+		    width: 70%;
+		    height: 100px;
+		    border: 3px  solid;
+		    border-left: 0;
+			float: left;
+
+			box-sizing: border-box;
+		}
+
+		.div-footer {
+			background: blue;
+		    width: 100%;
+		    height: 100px; 
+		    border: 3px solid;
+		    float: left;
+		    box-sizing: border-box;
+
+		    border-top: 0 !important; /* IMPORTANT le da prioridad (por posibles conflictos con otra propiedad)  */
+		    }
+
+
+	</style>
+
+
+</head>
+<body>
+	<div class="div-header">Header</div>
+
+	<div class="div-aside">Aside</div>
+
+	<div class="div-content">Content</div>
+
+	<div class="div-footer">Footer</div>
+
+
+</body>
+</html>
