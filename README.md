@@ -43,3 +43,11 @@ git push origin mfyance
 2. Abrir el archivo html y css correspondiente al Proyecto a Iniciar.
 3. Abrir [Imágen de ejemplo](https://drive.google.com/file/d/0Bxx13yDV_gjFX3JweUNReWdtbU0/view?usp=sharing)
 4. Iniciar la maquetación, aplicando las etiquetas básicas de Html y los selectores de estilo para los archivos Css
+
+
+> **Links Importantes:**
+1. Aquí esta la [Presentación 1](https://www.canva.com/design/DACOXrINg2U/1_XFtZ8696JykEUIRAX2JQ/view?utm_content=DACOXrINg2U&utm_campaign=designshare&utm_medium=link&utm_source=sharebutton)
+2. Aquí esta el [1er Examen](https://drive.google.com/open?id=1jlQ49SjygMSB-hj08r8UY3ROIXFyccQELpeU9mY85lQ)
+3. Aquí está el [2do Examen](https://drive.google.com/open?id=1fiqEABILstLUeFkewt7syjO-yHmQ-PJVETG9kVSjUL4)
+4. [Meetup Frontend](https://goo.gl/yWkXHhcontent_copyCopy short URL
+)
