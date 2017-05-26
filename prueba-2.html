@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="http://meyerweb.com/eric/tools/css/reset/reset.css"> <!-- resetea totalmente los estilos CSS (tambien se puede hacer con normalizer) -->
+
+
+	<!-- -->
+	<style>
+
+/* Primero se uso Float left para posicionar las cajas, luego se reempĺazo por CLEAR:BOTH; Tambien se puede usar la clase CLEANER para enmendar el error de posicionamiento (es mas recomendable) */
+
+		.div-header {
+			background: yellow;
+		    width: 100%;
+		    height: 100px;
+		    border: 3px solid;
+		    float: left;
+		    box-sizing: border-box; /* permitio alinear cada caja */
+
+		    border-bottom: 0;	/* arregla el problema de la fusion de lineas */
+		}
+
+		.div-aside {
+			background: orange;
+		    width: 30%;
+		    height: 100px;    
+			border: 3px solid;
+		    float: left;
+		    box-sizing: border-box;
+		}
+
+		.div-content {
+			background: green;
+		    width: 70%;
+		    height: 100px;
+		    border: 3px  solid;
+		    border-left: 0;
+			float: left;
+			box-sizing: border-box;
+		}
+
+		.div-footer {
+			background: blue;
+		    width: 100%;
+		    height: 100px; 
+		    border: 3px solid;
+		    /* float: left;  lo quite para usar la clase CLEAR para arreglar el footer*/
+		    box-sizing: border-box;
+		    border-top: 0 !important; /* IMPORTANT le da prioridad (por posibles conflictos con otra propiedad)  */
+		    display: inline-block; /* Se cambio de lugar la clase CLEAR y se aplico a ASIDE, Se quito la clase CLEAR que estaba arriba de footer y solucionaba su posicionamiento (no es recomendable cuando se tiene un menu) */
+
+		    }
+
+/*  */
+
+
+		.clear{
+			clear: both;
+		}
+
+
+	</style>
+
+
+</head>
+<body>
+	
+
+	<div class="div-header">Header</div>
+
+	<div class="div-aside" class="clear">Aside</div>
+
+	<div class="div-content">Content</div>
+	
+	<!-- <div class="clear"></div>  -->
+
+	<div class="div-footer">Footer</div>
+ 
+	<!--<ul class="menu">
+		<li>OPC 1</li><li>OPC 2</li>
+		<li>OPC 2</li>
+	</ul> -->
+
+
+</body>
+</html>

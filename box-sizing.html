@@ -8,6 +8,7 @@
   	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Box Sizing</title>
 	<link rel="icon" type="image/png" href="framework/img/favicon-16x16.png" sizes="16x16">
+	
 	<style>
 		/** {
 		    box-sizing: border-box;
@@ -41,6 +42,58 @@
 		    border: 1px solid red;
 		    box-sizing: border-box;
 		}
+
+
+
+/* 
+---------------------------------------- */
+		.div5 {
+			margin-top: 25px;
+			background: yellow;
+
+		    width: 500px;
+		    height: 500px;    
+		    padding: 100px;
+		    border: 1px solid green;
+		}
+
+		.div6 {
+			margin-top: 25px;
+
+		    width: 500px;
+		    height: 500px;    
+		    padding: 50px;
+		    border: 1px solid orange;
+		    box-sizing: border-box;
+		    float: left;
+		}
+		
+		.div7 {
+			margin-top: 25px;
+			background: yellow;
+			border-left: 20px solid orange;
+			border-right: 20px solid orange;
+			float: left;
+
+		    width: 500px;
+		    height: 500px;    
+		    padding: 100px 50px 25px 10px;    
+		}
+
+		.div8 {
+			margin-top: 25px;
+			background: yellow;
+			border-left: 20px solid green;
+			border-right: 20px solid green;
+			float: left;
+
+		    width: 500px;
+		    height: 500px;    
+		    padding: 100px 50px 25px 10px;    
+		}
+
+
+
 	</style>
 </head>
 <body>
@@ -52,5 +105,14 @@
 	<div class="div3">Both divs are the same size now!</div>
 	<br>
 	<div class="div4">Hooray!</div>
+
+
+<!-- 
+========================================= -->
+	<div class="div5">CAJA 5</div>
+	<div class="div6">CAJA 6</div>
+	<div class="div7">CAJA 7</div>
+	<div class="div8">CAJA 8</div>
+
 </body>
 </html>

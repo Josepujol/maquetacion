@@ -5,16 +5,19 @@
   	<meta name="organization" content="FullStack.pe">
   	<meta name="author" content="mfyance">
   	<meta name="description" content="Desarrollo Frontend Jr.">
-	<title>Block</title>
+	<title>Float</title>
 	<link rel="icon" type="image/png" href="framework/img/favicon-16x16.png" sizes="16x16">
 	<style>
 		body{background-color: #f7f7f7}
+
+
 		.caja1{
 			padding: 10px;
 			margin: 10px;
 			border:2px solid #4bbdff;
 			background-color: #eff9ff;
-			display: inline-block;			
+			float: left; /* desactive el display y lo reemplace por FLOAT:LEFT */
+			/*  display: inline-block;	*/		
 		}
 		.caja2{
 			padding: 10px;
@@ -23,47 +26,42 @@
 			background-color: #eff9ff;
 			display: block;			
 		}
-
-		.table{
-			background: yellow;
-			display: table;
+		.caja3{
+			padding: 10px;
+			margin: 10px;
+			border:2px solid #4bbdff;
+			background-color: #eff9ff;
+			display: inline-block;			
+			float: left;
 			width: 100%;
-			height: 200px;
 		}
-		.table>div{ /* aplica solo al dive siguiente, no a los divs o elementos del div (aplica al elemento hijo, pero no al nieto) */
-			display: table-cell;
+
+
+/*  */
+/* Cree las clases contenedor 1 y 2 con las siguientes Propiedades
+---------------------------------------- */
+		.contenedor-2{
+/*			background: orange;	*/
+			float:left;
+			width:100%;			
 		}
+
 
 	</style>
+
+
+
+
 </head>
 <body>
-	<div>
+	<div class="contenedor-1">
 		<div class="caja1 cleaner">Mi Caja IB 1</div>
 		<div class="caja1 cleaner">Mi Caja IB 2</div>
 	</div>
-	<div>
+	<div class="contenedor-2">
 		<div class="caja2 cleaner">Mi Caja b 1</div>
 		<div class="caja2 cleaner">Mi Caja b 2</div>
 	</div>
-
-
-	<table>
-		<tr>
-			<td>1</td>
-			<td>2</td>
-		</tr>
-	</table>
-
-
-	<div class="table">
-		<div>1</div>
-		<div>2
-
-
-		</div>
-	</div>
-
-
 
 </body>
 </html>
