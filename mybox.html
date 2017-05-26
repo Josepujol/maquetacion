@@ -8,12 +8,15 @@
   	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Box Sizing</title>
 	<link rel="icon" type="image/png" href="framework/img/favicon-16x16.png" sizes="16x16">
+	<link rel="stylesheet" href="http://meyerweb.com/eric/tools/css/reset/reset.css">
+
 	<style>
 		* {
 		    box-sizing: border-box;
 		    -moz-box-sizing: border-box;
 		    -webkit-box-sizing: border-box;
 		}
+		html{font-size: 40px;}
 		header, footer {
 		    border: 5px solid #ddd;
 		    height: 100px;
@@ -40,26 +43,56 @@
 		.foto--fullstack{
 			width:30px;
 		}
-		.clear {
-		    clear: both;
-		}
+		
+
+		.cleaner {
+  box-sizing: border-box;
+  *zoom: 1;
+}
+.cleaner:after {
+  clear: both;
+}
+.cleaner:before,
+.cleaner:after {
+  display: table;
+  line-height: 0;
+  content: "";
+}
+
+.menu li{
+	display: inline-block;
+}
+.menu2 li{
+	float: left;
+}
+html{
+	padding: 60px;
+}
+
 	</style>
 </head>
 <body>
-	<header>
-	    <img class="foto--fullstack" src="https://www.fullstack.pe/img/logo.png" alt="">
+	
 
-	</header>
-	<aside>
-	    ASIDE ( 30% )
-	</aside>
-	<section>
-	    SECTION ( 70% )
-	</section>
-	<!-- salto de línea -->
-	<div class="clear"></div>
-	<footer>
-	    FOOTER 
-	</footer>
+	<div class="menu">
+		<ul>
+			<li><a href="link" class="link">1</a></li>
+			<li>OPciones 1</li>
+			<li>OPciones 1</li>
+		</ul>
+	</div>
+
+	<br>
+	<br>
+	<br>
+	<br>
+
+	<div class="menu2">
+		<ul>
+			<li>OPciones 1</li>
+			<li>OPciones 1</li>
+			<li>OPciones 1</li>
+		</ul>
+	</div>
 </body>
 </html>

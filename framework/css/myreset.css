@@ -1,0 +1,13 @@
+.cleaner {
+  box-sizing: border-box;
+  *zoom: 1;
+}
+.cleaner:after {
+  clear: both;
+}
+.cleaner:before,
+.cleaner:after {
+  display: table;
+  line-height: 0;
+  content: "";
+}

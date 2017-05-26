@@ -43,3 +43,7 @@ git push origin mfyance
 2. Abrir el archivo html y css correspondiente al Proyecto a Iniciar.
 3. Abrir [Imágen de ejemplo](https://drive.google.com/file/d/0Bxx13yDV_gjFX3JweUNReWdtbU0/view?usp=sharing)
 4. Iniciar la maquetación, aplicando las etiquetas básicas de Html y los selectores de estilo para los archivos Css
+
+
+> **Links Importantes:**
+> Es necesario contar con una consola de trabajo ( Bash, Vim, ConEmu )
