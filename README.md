@@ -49,5 +49,4 @@ git push origin mfyance
 1. Aquí esta la [Presentación 1](https://www.canva.com/design/DACOXrINg2U/1_XFtZ8696JykEUIRAX2JQ/view?utm_content=DACOXrINg2U&utm_campaign=designshare&utm_medium=link&utm_source=sharebutton)
 2. Aquí esta el [1er Examen](https://drive.google.com/open?id=1jlQ49SjygMSB-hj08r8UY3ROIXFyccQELpeU9mY85lQ)
 3. Aquí está el [2do Examen](https://drive.google.com/open?id=1fiqEABILstLUeFkewt7syjO-yHmQ-PJVETG9kVSjUL4)
-4. [Meetup Frontend](https://goo.gl/yWkXHhcontent_copyCopy short URL
-)
+4. INVITACIÓN [Meetup Frontend](https://goo.gl/yWkXHhcontent_copy)
