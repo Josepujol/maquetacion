@@ -1,0 +1,47 @@
+<!doctype <!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+<style type="text/css">
+.Relativo{
+	position: relative;
+	border-style: solid;
+	border-color: black;
+	height: 400px;
+}
+.Absoluto{
+	position: absolute;
+	border-style: solid;
+	border-color: yellow;
+	top: 50%;
+	left:50%;
+	transform: translate(-50%,-50%);
+}	
+.Auxiliar{
+	/*position: absolute;*/
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin: auto;
+	width: 200px;
+	height: 200px;
+	border-style: solid;
+	border-color: blue;
+
+}
+}
+
+</style>
+</head>
+<body>
+	<div class="Relativo">
+		<p>Seccion Relativa</p>
+
+		<div class="Absoluto"><p>Sección Absoluta</p></div>
+		<div class="Auxiliar"><p>Sección Auxiliar</p></div>
+
+	</div>
+</body>
+</html>
