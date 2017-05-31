@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>002</title>
+</head>
+<body>
+
+<style>
+
+.relativo{
+	position: relative;
+	background: yellow;
+	width:500px;
+	height: 500px;
+	margin: 20px;
+}
+.absoluto{
+	position: absolute;
+	background: olive;
+	text-align: center;
+	top:50%;
+	left:50%;
+	width: 100px;
+	height: 100px;
+	transform: translate(-50%, -50%);	
+}
+
+.absoluto-2{
+	position: absolute;
+	background: orange;
+	text-align: center;	
+	top:0;
+	left:0;
+	right:0;
+	bottom: 0;
+	margin: auto;
+	width: 100px;
+	height: 100px;
+}
+	
+/*10px*/
+
+</style>
+
+<div class="relativo">
+
+	<div class="absoluto">absoluto</div>
+
+</div>
+
+
+<div class="relativo">
+
+	<div class="absoluto-2">absoluto</div>
+
+</div>
+
+
+
+
+
+	
+</body>
+</html>
