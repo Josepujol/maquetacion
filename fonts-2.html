@@ -8,7 +8,20 @@
 	<title>Fonts - External/Internal Fonts</title>
 	<link rel="icon" type="image/png" href="framework/img/favicon-16x16.png" sizes="16x16">
 	<!-- <link href="https://fonts.googleapis.com/css?family=Sansita" rel="stylesheet"> -->
+
+	
+<!-- FUENTE IMPORTADA DE GOOGLE -->
+	<link href="https://fonts.googleapis.com/css?family=Vibur" rel="stylesheet">
+
+
+
+	<link href="https://fonts.googleapis.com/css?family=Mogra" rel="stylesheet">
+
+
+
 	<style>
+
+	/*  */
 		.fondo1{background-color: #000}
 		.color1{color: #fff}
 		.fuente1{
@@ -17,12 +30,65 @@
 		.texto1{
  			text-transform: uppercase;
 		}
+
+
+/* FUENTE INSTALADA EN EL SERVIDOR */
 		h1{
 			font-family: 'Sansita', Calibri, sans-serif;
 			font-size: 20px;
 		}
+		
+/* FUENTE INSTALADA EN EL SERVIDOR */
+		h2{		
+			font: bold 40px fullstack;
+		}
+
+
+/* FUENTE IMPORTADA DE GOOGLE */
+		h3{
+			font-family: 'Vibur', cursive;
+			font-size: 40px;
+		}
+
+
+		h4{
+			font-family: 'Mogra', cursive;
+			font-size: 40px;
+			color: #F03861;
+
+		
+			background: -webkit-linear-gradient(top, #F03861, #FECEA8);
+			background: -o-linear-gradient(top, #F03861, #FECEA8);
+			background: linear-gradient(top,#F03861, #FECEA8);
+			-webkit-background-clip: text;
+			-webkit-text-fill-color: transparent;
+			
+		}
+
+		h5{
+			font-family: 'Mogra', cursive;
+			font-size: 40px;
+			 text-shadow: 7px 7px 20px #aaa;
+			-webkit-mask-image: -webkit-linear-gradient(top, rgba(0,0,0,1), rgba(0,0,0,.5) 50%, rgba(0,0,0,1));
+			-webkit-mask-image: linear-gradient(top, rgba(0,0,0,1), rgba(0,0,0,.5) 50%, rgba(0,0,0,1));
+
+
+			text-shadow: 7px 7px 20px #aaa;  /*  El tercer valor es el difuminado de la sombra */
+		}
+
+
+
+
 
 		@font-face {
+		font-family: fullstack;
+		src: 	url('framework/fonts/sansita-regular-webfont.eot'); /* IE9 Compat Modes */
+		}
+
+
+/* FUENTE INSTALADA EN EL SERVIDOR */
+		@font-face {
+			/* EOT es el mas compatible (poner todos los formatos... eot, woff2, etc) */
 			font-family: 'sansita';
 			src: 	url('framework/fonts/sansita-regular-webfont.eot'); /* IE9 Compat Modes */
 			src: 	url('framework/fonts/sansita-regular-webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
@@ -34,6 +100,10 @@
 </head>
 <body>
 	<h1>Propiedades Text & Fonts</h1>
+	<h2>Fullstack</h2>
+	<h3>Fuente Google Vibur</h3>
+	<h4>Fuente Mogra degradado 1</h4>
+	<h5>Degradado 2</h5>
 	<div class="fondo1 color1">
 		<p class="fuente1">Estilo Font</p>
 		<p class="texto1">estilo text</p>
