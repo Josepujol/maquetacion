@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>ANIMACIONES CSS</title>
+
+
+
+	<link rel="stylesheet" href="css/animate.css">
+
+
+
+</head>
+<body>
+
+<style>
+
+/* IMPORT: importa estilos de otro lugar (como ANIMATE.CSS) */
+@import url(https://daneden.github.io/animate.css/animate.min.css);
+
+
+		html {
+			font-size:62.5%;
+		}
+
+
+		section{
+			font-size:20px;
+		}
+		h1{
+			
+			font-size:2em;	
+				}
+
+		h2{
+			font-size:2rem;
+		}
+		
+
+
+		.boton-1{
+			width: 100px;
+			height: 50px;
+			background: #F03861;
+			border-radius: 20px;
+			color: white;
+			font-weight: bold;
+			cursor: pointer;
+			transition: all .3s ease-in-out;
+			-webkit- transition: all .3s ease-in-out;
+			-o- transition: all .3s ease-in-out;
+
+
+		}
+		.boton-1:hover{
+			color: black;
+			background: -webkit-linear-gradient(left,#F03861, #FECEA8);
+		}
+
+
+
+
+		.boton-2{
+			width: 100px;
+			height: 50px;
+			background: #F03861;
+			border-radius: 20px;
+			color: white;
+			font-weight: bold;
+			cursor: pointer;
+			transition: all .3s ease-in-out;
+			-webkit- transition: all .3s ease-in-out;
+			-o- transition: all .3s ease-in-out;
+
+
+		}
+		.boton-2:hover{
+			color: black;
+			background: -webkit-linear-gradient(left,#F03861, #FECEA8);
+		}
+		.boton-2:active{
+			background-color: red;
+		}
+
+
+
+	.boton-rotate{
+		text-align: center;
+		background-color: yellow;
+		max-width: 100px;
+		padding: 10px 10px;
+		font-size: 30px;
+		transition: all .3s ease-in-out;
+
+	}
+
+	.boton-rotate:hover{
+
+		-webkit-transform: rotate(30deg);
+		transition: all .3s ease-in-out;
+
+	}
+
+
+
+
+	
+
+
+	@keyframes flash2 {
+
+	    0%,{
+	    	opacity: 0.8
+	    }
+
+		50% {
+		opacity: 0.5
+		}
+
+		75% {
+		opacity: 0.2
+		}
+
+	    100%, {
+	        opacity: 1
+	    }
+	 
+	}
+
+	.flash2 {
+	    -webkit-animation-name: flash2;
+	    animation-name: flash2;
+	}
+
+
+	.boton-flash2{
+		text-align: center;
+		background-color: blue;
+		max-width: 100px;
+		padding: 10px 10px;
+		font-size: 30px;
+		transition: all .3s ease-in-out;
+	
+		animation-duration: 1s;	/* Importante para que funcione la animacion */
+	}
+
+
+
+
+
+
+
+	@keyframes rotate2 {
+
+	    0%,{
+	    	transform: rotate(90deg)
+	    }
+
+		50% {
+			transform: rotate(180deg)
+		}
+
+		75% {
+			transform: rotate(270deg)
+		}
+
+	    100%, {
+	    	transform: rotate(360deg)
+	    }
+	 
+	}
+
+
+	.boton-rotate2{
+		text-align: center;
+		background-color: yellow;
+		max-width: 100px;
+		padding: 10px 10px;
+		font-size: 30px;
+		animation-duration: 1s;	/* Importante para que funcione la animacion */
+
+	}
+	
+	.rotate2 {
+	    -webkit-animation-name: rotate2;
+	    animation-name: rotate2;
+	}
+
+
+
+@keyframes translate2 {
+
+	    0%{
+	    	transform: translate3d(-100%, 0, 0);
+        	visibility: visible
+	    }
+
+		50% {
+			transform: translate3d(0, 0, 0)
+		}
+
+		75% {
+			transform: scale(1.2,1.2);
+		}
+
+	    85%, {
+	    	transform: translate3d(0, -100%, 0); 
+	    	visibility: hidden;     
+	    }
+	 
+	}
+
+.boton-translate2{
+		text-align: center;
+		background-color: orange;
+		max-width: 120px;
+		padding: 10px 10px;
+		font-size: 30px;
+		animation-duration: 2s;	/* Importante para que funcione la animacion */
+
+	}
+
+
+.translate2{
+	  -webkit-animation-name: translate2;
+    animation-name: translate2
+}
+
+}
+
+
+</style>
+
+
+
+
+
+
+<section>
+
+	<h1>H1</h1>
+
+</section>
+
+<h2>H2</h2>
+
+<!-- para usar efectos de ANIMATE.CSS... se debe importar los estilos con @IMPORT y agregar las clases: "animated" y el nombre del efecto al elemento que se quiera animar (Ejem: bounceIn)-->
+<button class="boton-1 animated bounceIn hinge">BOTON 1</button>
+
+<button class="boton-2 animated rubberBand">BOTON 1</button>
+
+
+<div class="boton-rotate">Rotate</div>
+
+<div class="boton-flash2 flash2">Flash2</div>
+	
+
+<div class="boton-rotate2 rotate2">Rotate2</div>
+
+<div class="boton-translate2 translate2">translate2</div>
+
+
+
+</body>
+</html>
