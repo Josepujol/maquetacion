@@ -18,19 +18,22 @@ git clone https://github.com/fullstack-pe/maquetacion.git
 ```
 4. Configurar Datos de Usuario Git
 ```
-* git config --global -l 
-* git config --global user.name "Moises Yance"
-* git config --global user.email "francisco10myq@gmail.com"
+git config --global user.name "Moises Yance"
+git config --global user.email "francisco10myq@gmail.com"
+
+5. Verificar los datos ingresados
+git config --global -l 
+
 ```
-5. Crear una Rama Personal para el Repositorio
+6. Crear una Rama Personal para el Repositorio
 ```
 git checkout -b "mfyance"
 ```
-6. Agregar mis cambios realizados
+7. Agregar mis cambios realizados
 ```
 git commit -am "Agregar mis cambios"
 ```
-7. Subir mis cambios realizados
+8. Subir mis cambios realizados
 ```
 git push origin mfyance
 ```
