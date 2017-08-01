@@ -34,18 +34,18 @@ git checkout -b "mfyance"
 git add .
 ```
 8. Agregarle el mensaje a los archivos por subir
-``````
+```
 git commit -m "Agregar mis cambios"
 ```
 9. Bajar cambios del repositorio
 ```
 git pull origin mfyance
 ```
-9. Subir mis cambios realizados
+10. Subir mis cambios realizados
 ```
 git push origin mfyance
 ```
-10. Guardar usuario y contraseña
+11. Guardar usuario y contraseña
 ```
 git config credential.helper cache
 ```
