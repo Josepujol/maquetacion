@@ -1,0 +1,35 @@
+html{
+	background-color: #000;
+}
+.button--is-blue{
+	color: yellow;
+	background-color: blue
+}
+a{
+	color: #fff;
+	font:20px Arial;
+	text-transform: uppercase;
+	border:1px solid #000;
+}
+
+.button--is-blue:active{
+	color: pink
+}
+.button--is-blue:hover{
+	border:5px solid yellow;
+}
+#menu__opcion{
+	color: purple !important
+}
+.menu__ul--is-opcion{
+	color: pink !important
+}
+nav ul li{
+	color: brown 
+}
+button[type="button"]{
+	
+}
+button[type="submit"]{
+	
+}

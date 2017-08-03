@@ -18,7 +18,7 @@
 			float: left;
 			width: 100%;
 		}
-		.caja.dotted {border-style: dotted;}
+		.caja--is-dotted {border-style: dotted;}
 		.caja.dashed {border-style: dashed;}
 		.caja.solid {border-style: solid;}
 		.caja.double {border-style: double;}
@@ -35,7 +35,18 @@
 </head>
 <body>
 	<div>
-		<div class="caja dotted cleaner">dotted</div>
+	<style>
+		.caja{
+
+		}
+		.caja.dotted{
+
+		}
+		.caja--is-dotted{
+			
+		}
+	</style>
+		<div class="caja caja--is-dotted cleaner">dotted</div>
 		<div class="caja dashed cleaner">dashed</div>
 		<div class="caja solid cleaner">solid</div>
 		<div class="caja double cleaner">double</div>
