@@ -1,0 +1,66 @@
+html{
+
+	background-color: grey;
+}
+.buttom {
+	color: #555;
+	font: 20px arial;
+	text-transform: uppercase;
+	border: 1px solid #555; 
+}
+
+.buttom--is--blue {
+
+	color: blue;
+}
+
+.buttom--is--blue:hover {
+
+	color: yellow;
+}
+
+.buttom-is--blue:active{
+	color:purple;
+}
+
+.buttom--is--red {
+	color: red;
+}
+
+.buttom--is--red:hover {
+	color:yellow;
+}
+
+.buttom--is--orange {
+	color: orange;
+}
+
+.buttom--is--orange:hover {
+	color:yellow;
+}
+
+
+.menu_ul_is_option{
+	color:pink;
+}
+
+nav ul li {
+	color: brown;
+}
+
+button[type="button"] {
+color: blue;
+}
+
+button[type="submit"] {
+	color: pink;
+}
+
+
+.button_color1 {
+	color: grey;
+}
+
+.button_color2 {
+	color: brown;
+}
