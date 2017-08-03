@@ -18,21 +18,36 @@ git clone https://github.com/fullstack-pe/maquetacion.git
 ```
 4. Configurar Datos de Usuario Git
 ```
-* git config --global -l 
-* git config --global user.name "Moises Yance"
-* git config --global user.email "francisco10myq@gmail.com"
+git config --global user.name "Moises Yance"
+git config --global user.email "francisco10myq@gmail.com"
 ```
-5. Crear una Rama Personal para el Repositorio
+5. Verificar los datos ingresados
+```
+git config --global -l 
+```
+6. Crear una Rama Personal para el Repositorio
 ```
 git checkout -b "mfyance"
 ```
-6. Agregar mis cambios realizados
+7. Agregar mis cambios realizados
 ```
-git commit -am "Agregar mis cambios"
+git add .
 ```
-7. Subir mis cambios realizados
+8. Agregarle el mensaje a los archivos por subir
+```
+git commit -m "Agregar mis cambios"
+```
+9. Bajar cambios del repositorio
+```
+git pull origin mfyance
+```
+10. Subir mis cambios realizados
 ```
 git push origin mfyance
+```
+11. Guardar usuario y contraseña
+```
+git config credential.helper cache
 ```
 
 > **Nota:**
@@ -43,3 +58,11 @@ git push origin mfyance
 2. Abrir el archivo html y css correspondiente al Proyecto a Iniciar.
 3. Abrir [Imágen de ejemplo](https://drive.google.com/file/d/0Bxx13yDV_gjFX3JweUNReWdtbU0/view?usp=sharing)
 4. Iniciar la maquetación, aplicando las etiquetas básicas de Html y los selectores de estilo para los archivos Css
+
+
+> **Links Importantes:**
+1. Aquí esta la [Presentación 1](https://www.canva.com/design/DACOXrINg2U/1_XFtZ8696JykEUIRAX2JQ/view?utm_content=DACOXrINg2U&utm_campaign=designshare&utm_medium=link&utm_source=sharebutton)
+2. Aquí esta el [1er Examen](https://drive.google.com/open?id=1jlQ49SjygMSB-hj08r8UY3ROIXFyccQELpeU9mY85lQ)
+3. Aquí está el [2do Examen](https://drive.google.com/open?id=1fiqEABILstLUeFkewt7syjO-yHmQ-PJVETG9kVSjUL4)
+4. INVITACIÓN [Meetup Frontend](https://www.meetup.com/es-ES/gdglima/events/240109942/)
+5. [Propiedad DIsplay](https://www.w3schools.com/cssref/playit.asp?filename=playcss_display&preval=inline)
