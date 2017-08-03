@@ -1,0 +1,63 @@
+html {
+	/*display: none;*/
+	background: #ddd;
+}
+
+#cabecera {
+	border: 1px solid #000;
+	padding: 30px;
+}
+
+#principal {
+	border: 1px solid #000;
+}
+
+#piedepagina {
+	border: 1px solid #000;
+}
+
+.button {
+	color: #555;
+	font: 20px;
+	text-transform: uppercase;
+	border: 1px solid #007eff;
+	padding: 10px;
+	border-radius: 10px;
+}
+
+.button--is-blue {
+	color: #007eff;
+	background-color: #fff; 
+}
+
+.button--is-blue:hover {
+	color: #fff;
+	background-color: #007eff;
+}
+
+menu--is-opcion {
+	color: pink;
+}
+
+nav ul li {
+	color: red;
+}
+
+button[type=submit]{
+	color: #555;
+	font: 20px;
+	text-transform: uppercase;
+	border: 1px solid #007eff;
+	padding: 10px;
+	border-radius: 10px;
+}
+
+/* atributo del elemento button */
+button[type="button"]{
+	color: #555;
+	font: 20px;
+	text-transform: uppercase;
+	border: 1px solid #007eff;
+	padding: 10px;
+	border-radius: 10px;
+}
