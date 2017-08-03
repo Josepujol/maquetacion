@@ -1,0 +1,35 @@
+html {
+	background-color: red;	
+}
+
+.link_prueba {
+	color: #555;
+	font:20px Arial;
+	text-transform: uppercase;
+	border:1px solid #555;
+}
+
+#cabecera {
+	color: green;
+}
+
+#piedepagina {
+	color: blue;
+}
+
+nav ul li{
+			color: brow  
+
+}
+
+.menu--is--opcion{
+	color: blue
+
+
+}
+button[type="button"]{
+	color: red
+}
+button[type="submit"]{
+	color: green
+}
