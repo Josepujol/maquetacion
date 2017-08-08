@@ -18,13 +18,12 @@ html {
 }
 
 nav ul li{
-			color: brow  
+			color: green; 	
 
 }
 
 .menu--is--opcion{
-	color: blue
-
+	color: pink;
 
 }
 button[type="button"]{
