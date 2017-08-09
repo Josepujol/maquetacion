@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>Clase 3</title>
+	<style>
+		.caja{
+			width: 100%;
+			background: #000;
+			color: #fff;
+			padding: 40px;
+			margin: 20px;
+		}
+		.caja--is-small{
+			width: 450px;
+			background: yellow;
+			color: red;
+		}
+		.box{
+			-webkit-box-sizing: border-box;
+			-moz-box-sizing: border-box;
+			box-sizing: border-box;
+		}
+		.f--l{
+			float: left;
+		}
+		.f--r{
+			float: right;
+		}
+		.caja2--is-small{
+			display: block;
+			float: left;
+			background: yellow;
+			color: #000;
+			width: 50%;
+		}
+
+		.caja3{
+			width: 1000px;
+			background: #000;
+			color: #fff;
+			padding: 20px;
+			margin: 20px;
+			box-sizing: content-box;
+		}
+		.caja3--is-small{
+			display: inline-block;
+			width: 500px;
+			box-sizing: content-box;
+		}
+		.bg-1{
+			background-color: yellow;
+		}
+		.bg-2{
+			background-color: grey;
+		}
+	</style>
+</head>
+<body>
+	
+	<div class="caja box">
+		<div class="caja2--is-small box">
+			caja 1
+		</div><div class="caja2--is-small box">
+			caja 2
+		</div>
+	</div>
+
+	<div class="caja">
+		<div class="caja--is-small f--l ">
+			caja 1
+		</div>
+		<div class="caja--is-small f--r ">
+			caja 2
+		</div>
+	</div>
+
+
+	<div class="caja3">
+		<div class="caja3--is-small bg-1">
+			caja1
+		</div><div class="caja3--is-small bg-2">
+			caja1
+		</div>
+	</div>
+
+	
+	<style>
+		.block{
+			background: #000;
+			color: #fff;
+			display: inline-block;
+		}
+	</style>
+	<div class="content">
+		<div class="block">
+			block
+		</div>
+		<div class="block">
+			block
+		</div>
+		<div class="block">
+			block
+		</div>
+	</div>
+	<div class="content">
+		<div class="block">
+			block
+		</div>
+		<div class="block">
+			block
+		</div>
+		<div class="block">
+			block
+		</div>
+	</div>
+
+
+
+
+
+
+	
+
+
+	<style>
+		/*padding: 40px 40px 40px 40px;
+			padding-top: 40px;
+			padding-right: 40px;
+			padding-bottom: 40px;
+			padding-left: 40px;*/
+	</style>
+</body>
+</html>

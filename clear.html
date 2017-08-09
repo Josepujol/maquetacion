@@ -35,18 +35,69 @@
 		.clear {
 		    clear: both;
 		}
+
+		.logo{
+			width: 60px;
+			display: inline-block;
+			vertical-align: top;
+		}
+		.logo img{
+			width: 100%
+		}
+		.menu li{
+			display: inline-block;
+		}
+		.menu{
+			display: block;
+			vertical-align: top;
+			margin:0;
+			width: calc (100% - 60px);		
+
+		}
+
+		li{
+			list-style-type: none
+		}
+		.flex li {
+			padding: 40px;
+			width: 25%
+		}
+		.flex{
+			display: flex;
+			align-content:center;
+		}
 	</style>
 </head>
 <body>
+
+	<div >
+		<ul class="flex">
+			<li>1</li>
+			<li>2</li>
+			<li>3</li>
+			<li>3</li>
+		</ul>
+	</div>
+
+
 	<header>
-	    Header
+	    <div class="logo">
+	    	<img src="framework/img/favicon-16x16.png" alt="logo">
+	    </div>
+	    <ul class="menu">
+	    	<li>OPción 1</li>
+	    	<li>OPción 2</li>
+	    	<li>OPción 3</li>
+	    </ul>
 	</header>
-	<aside>
-	    Aside (Floated Left)
-	</aside>
-	<section>
-	    Content (Floated Left, Can Be Floated To Right As Well)
-	</section>
+	<div class="contenedor">
+		<aside>
+		    Aside (Floated Left)
+		</aside>
+		<section>
+		    Content (Floated Left, Can Be Floated To Right As Well)
+		</section>
+	</div>
 	<!-- Clearing Floating Elements-->
 	<div class="clear"></div>
 	<footer>
