@@ -8,13 +8,69 @@
 	<title>Framework</title>
 </head>
 <body>
-	<section id="principal">
-		<header id="cabecera">
-			<nav class="cabecera--menu"></nav>
-		</header>
-		<section id="contenido"></section>
-		<footer id="piedepagina">		
-		</footer>
-	</section>
+	<header id="cabecera">
+		<nav class="cabecera--menu"></nav>
+	</header>
+	<main id="contenido">
+		<code>
+			
+		</code>
+	</main>
+	<footer id="piedepagina">		
+	</footer>
+  	
+  	<script src="http://code.jquery.com/jquery-3.2.1.min.js"></script>
+  	<script src="js/app.js"></script>
+  	<script>
+  		// variables
+  		var string = "Hola"
+  		var int = 123
+
+  		for(var i= 1 ; i < 10; i++){
+  			// console.log(i)
+  		}
+
+  		var data = {1:"a", 2: "e", 3: "i", 4: "o", 5: "u"}
+  		for ( i in data){
+  			// console.log(data[i])
+  		}
+
+  		// Funcion 
+  		function multiplicar(num1, num2) {
+		 	return num1 * num2
+		}
+		// multiplicar(2,3)
+		// alert(multiplicar(2,3))
+
+
+
+  		// saludo
+  		var mifunc = function(){
+  			alert("moises")
+  		}
+  		// mifunc()
+
+  		// Constructor
+  		function Persona(nombre) {
+  			alert(nombre);
+		}
+		// var persona1 = new Persona("aa");
+
+
+		// Métodos
+		function Persona(primerNombre) {
+		  this.primerNombre = primerNombre;
+		}
+
+		Persona.prototype.diHola = function() {
+		  alert ('Hola, Soy ' + this.primerNombre);
+		};
+
+		var persona1 = new Persona("Alicia");
+		// persona1.diHola()
+		// var funcionSaludar = persona1.diHola;
+
+  	</script>
+
 </body>
 </html>
