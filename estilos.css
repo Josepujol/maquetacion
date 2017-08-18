@@ -1,0 +1,54 @@
+html{
+	background-color: #f1f1f1;
+}
+
+
+
+#link__prueba{
+    color: #555;
+    font:20px Arial;
+    text-transform: uppercase;
+    border: 1px solid #555;
+}
+
+.button{
+    text-align: center;
+}
+
+.button--is-blue{
+	color: blue;
+}
+
+.button--is-blue:hover{
+	color: yellow;
+}
+
+.button--is-blue:active{
+	color: pink;
+}
+
+.menu__ul--is-opcion{
+	color: pink;
+}
+
+nav ul li{
+	color: brown !important;
+}
+
+button[type="button"]{
+color: red;
+}
+
+button[type="submit"]{
+color: red;	
+}
+
+
+
+
+
+
+
+
+
+

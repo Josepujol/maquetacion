@@ -2,3 +2,8 @@
 #principal{}
 #piedepagina{}
 .cabecera--menu{}
+
+.caja::after{
+	content: "xd";
+}
+

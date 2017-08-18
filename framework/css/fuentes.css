@@ -1,0 +1,14 @@
+@font-face {
+	font-family: 'slabo2';
+	src: 	url('../fonts/slabo/slabo-webfont.eot') format('embedded-opentype'),
+		url('../fonts/slabo/slabo-webfont.svg') format('svg'),
+                        url('../fonts/slabo/slabo-webfont.woff') format('woff');
+}
+
+@font-face {
+            font-family: 'sansita22';
+	src:       url('../fonts/sansita-regular-webfont.eot')  format('embedded-opentype'),
+                        url('../fonts/sansita-regular-webfont.svg') format('svg'),
+                        url('../fonts/sansita-regular-webfont.woff') format('woff'),
+                        url('../fonts/sansita-regular-webfont.woff2') format('woff2');
+}
