@@ -1,0 +1,136 @@
+body{
+	background: #f7f7f7;
+}
+.cabecera{
+	display: flex;
+	background: #c34d29;
+	padding: 20px
+}
+.principal{
+	width: 100%;
+	max-width: 1400px;
+	margin: 0 auto;
+	border: 2px solid #ff693c;
+	-webkit-box-shadow: 1px 1px 3px #cec7c7;
+	box-shadow: 1px 1px 3px #cec7c7;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.logo__content img{
+	width: 100%;
+	vertical-align: middle;
+}
+.logo__content{
+	width: 160px;
+	margin-right: 70px;
+}
+.menu__content{
+	width: calc( 100% - 160px);
+}
+.menu__content--flex{
+	display: flex;
+}
+.menu__link a{
+	display: block;
+	width: 100%;
+	padding: 10px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	color: #fff;
+	font-size: 14px;
+}
+.menu__link{
+	padding: 10px;
+	width: 25%;
+	border:1px solid #ddd;
+ 	margin: 10px;
+
+}
+
+
+.cuerpo{
+	padding: 10px;
+	background-color: #ffac65
+}
+
+.h1__contenedor{
+	text-align: center;
+}
+h1{
+	font-family: 'Baloo Bhaijaan';
+	font-size: 60px;
+	color: #FFF;
+	font-weight: bold;
+}
+.foto__principal{
+	padding: 20px;
+}
+.foto--is-img{
+	text-align: center;
+}
+
+.bloques__principal{
+	display: flex;	
+}
+.bloque{
+	width: 33.3%;
+	padding: 10px;
+	border:1px solid #fff;
+	margin:5px;
+}
+.pie{
+	padding: 40px 0px;
+	text-align: center;
+	background: #b76a27;
+	color: #fff
+}
+
+.cleaner {
+	box-sizing: border-box;
+	*zoom: 1;
+}
+.cleaner:after {
+		clear: both;
+}
+.cleaner:before,
+.cleaner:after {
+	display: table;
+	line-height: 0;
+	content: "";
+}
+
+.menu__responsive{
+	display: none;
+}
+@media screen and (max-width: 1500px) {
+	.principal{
+		max-width: 100%;
+	}
+}
+@media screen and (max-width: 800px) {
+	.menu__content{
+		display: none;
+	}
+	.menu__responsive{
+		display: block;
+		position: absolute;
+		right: 10px;
+		top: 20px;
+	}
+	.menu__responsive--is-icon{
+		color: #fff;
+	}
+	.bloques__principal{
+		display: block;
+	}
+	.bloque{
+		width: 100%;
+		margin: 0;
+		margin-bottom: 50px;
+	}
+	.cuerpo{
+		background-color: #70eabe;
+	}
+}
